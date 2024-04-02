@@ -41,6 +41,7 @@ header {
       display: flex;
       justify-content: space-evenly;
       background-color: #caa9a9;
+      padding: 5px;
   }  
   section img{
    margin-top: 50px;
@@ -49,13 +50,18 @@ header {
    max-width:250px;
    max-height:150px;
    width: auto;
-   height: auto;
+   height: auto; 
+   
+   
   }
   div.box {
 	width: 100px;
 	display: inline-block;
    font-size: 16px;
    text-align: center;
+}
+div.blocos{
+   padding: 5px;
 }
   /* Estilizando os links do nav da página*/    
  nav a{                
@@ -103,5 +109,11 @@ header h1{
 .parte2 { /* Estilizando a parte 2 para ter um tamanho maior*/  
    width: 50%;
    margin: 0 1px;
+}
+
+div.info{
+   font-size: 14px;
+   justify-content: center;
+   display: none;
 }
 

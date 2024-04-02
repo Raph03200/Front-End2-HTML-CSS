@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="estilo.css">
     <title>Tela inicial</title>
 </head>
@@ -33,18 +34,66 @@
 		</nav>
         <!--Uma seção de conteúdo, que pode conter outros elementos html, dependendo do objetivo da página-->
         <section>
+        <div>
 			<div class="box"><img src="Imagens/ameninaquer.jpg" title="A menina que roubava livros capa">
-            <span>A menina que roubava livros</span></div>
+            <span>A menina que roubava livros</span></div> <br>
+            <button onclick="toggle('info1')">Info</button>
+            <div class="info" id="info1">
+                Autor(a): Markus Zusak <br>
+                Ano de publicação: 2005 (Primeira edição) <br>
+                Sinopse: "Filha de uma comunista perseguida pelo nazismo, 
+                Liesel é adotada por um casal alemão em troca de dinheiro. 
+                A menina logo se afeiçoa ao padrasto, Hans, que lhe ensina a ler e, 
+                assim, dá o empurrão que faltava para que ela desenvolvesse o hábito de roubar livros ou lê-los furtivamente na biblioteca do prefeito da cidade."
+            </div>
+        </div>
 
+        <div>
             <div class="box"><img src="Imagens/Duna.jpg" title="Duna Capa">
-            <span>Duna: Livro 1</span></div>
+            <span>Duna: Livro 1</span></div> <br>
+            <button onclick="toggle('info2')">Info</button>
+                <div class="info" id="info2">
+                Autor(a): Frank Herbert <br>
+                Ano de publicação: 1965 <br>
+                Sinopse: "Envolvido numa intrincada teia política e religiosa,
+                Paul divide-se entre as obrigações de herdeiro e seu treinamento 
+                nas doutrinas secretas de uma antiga irmandade, 
+                que vê nele a esperança de realização de um plano urdido há séculos."
+                </div>
+        </div>
 
+        <div>
             <div class="box"><img src="Imagens/SherlockHolmes.jpeg" title="As Aventuras de Sherlock Holmes capa">
-            <span>As Aventuras de Sherlock Holmes</span></div>
+            <span>As Aventuras de Sherlock Holmes</span></div> <br>
+            <button onclick="toggle('info3')">Info</button>
+                <div class="info" id="info3">
+                Autor(a): Conan Doyle <br>
+                Ano de publicação: 1892 <br>
+                Sinopse: "Sherlock Holmes é um detetive britânico enigmático e pedante do final do século XIX e início do século XX.
+               <br> Ele utiliza a metodologia científica e a lógica dedutiva para solucionar 
+                seus casos <br> e conta com a ajuda de seu fiel amigo e parceiro dr. Watson."
+                </div>
+        </div>
+        <div>
             <div class="box"><img src="Imagens/2morremnofinal.jpg" title="Os dois morrem no final capa">
-            <span>Os dois morrem no final</span></div>
+            <span>Os dois morrem no final</span></div> <br>
+            <button onclick="toggle('info4')">Info</button>
+                <div class="info" id="info4">
+                Autor(a): Adam Silvera <br>
+                Ano de publicação: 2017 <br>
+                Sinopse: "A notícia é devastadora: eles vão morrer naquele mesmo dia. Os dois não se conhecem, mas, por motivos diferentes, estão à procura de um amigo com quem compartilhar os últimos momentos, uma conexão verdadeira que ajude a diminuir um pouco a angústia e a solidão que sentem."
+                </div>
+        </div>
+        <div>
             <div class="box"><img src="Imagens/predestinados.jpeg" title="Predestinados capa">
-            <span>Predestinados</span></div>
+            <span>Predestinados</span></div> <br>
+            <button onclick="toggle('info5')">Info</button>
+                <div class="info" id="info5">
+                Autor(a): Amanda Orlando <br>
+                Ano de publicação: 2023 <br>
+                Sinopse: "Entre o romance histórico e a narrativa de horror, Predestinados reúne o melhor desses dois mundos em uma trama eletrizante, tecida a partir de uma pergunta tão antiga quanto a humanidade: quais são os limites do poder?"
+                </div>
+        </div>
 		</section>
        
         <footer>
